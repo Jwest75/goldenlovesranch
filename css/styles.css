@@ -1,5 +1,6 @@
-h1{
-    color: rgb(236, 9, 153, 0.991);
+h1 {
+    
+    color: rgba(236, 9, 153, 0.991);
     font-style: italic;
     font-family: ;
     font-size: 70px;
@@ -9,18 +10,61 @@ h1{
     margin-right: 1px;
     padding: 10px;
 }
-pabout{
+
+.navagation {
+    border: none;
+    margin: 10px;
+    margin-left: 150px;
+    margin-top: 2px;
+    color: rgba(236, 9, 153, 0.991)
+}
+
+div {
+    color: rgba(236, 9, 153, 0.991);
+    border: solid;
+    border-color: rgba(236, 9, 153, 0.991);
+    display: inline-block;
+}
+
+body {
+    background-image: url(/img/background1.jpg);
+}
+
+.ul {
+    margin: 10px;
+
+}
+
+.home {
+    text-decoration: none;
+}
+
+.about {
+    text-decoration: none;
+}
+
+.contact {
+    text-decoration: none;
+}
+
+.training {
+
+    text-decoration: none;
+}
+
+.breeding {
+    text-decoration: none;
+}
+
+
+
+pabout {
     font-size: larger;
-    color:rgb(236, 9, 153, 0.991);
-}
-body{
-    background-color: white);
-    }
-ul{ margin-left: 170px;
-
+    color: maroon;
 }
 
-li{ color: rgba(236, 9, 153, 0.991);
+.navagation li {
+    color: rgba(236, 9, 153, 0.991);
     border: solid;
     border-width: 3px;
     border-radius: 20%;
@@ -29,42 +73,100 @@ li{ color: rgba(236, 9, 153, 0.991);
     padding: 20px;
     font-size: 24px;
     margin: 7px;
+    box-shadow: 5px 10px rgba(236, 9, 153, 0.991)
 }
 
 .carousel {
     margin: 300.5px;
-    width:640px;
-    height:360px;
-  }
-div { color:rgba(236, 9, 153, 0.991) ;
-    border: solid;
-    border-color: rgba(236, 9, 153, 0.991);
-    display: inline-block;
+    width: 640px;
+    height: 360px;
 }
 
-footer{
-    border: solid;
-    border-color:rgba(236, 9, 153, 0.991);
-    position: sticky;
-}
-.navagation{
+.aboutdiv {
     border: none;
-    margin: 10px;
-    margin-right: 120px;
+
 }
 
-h2{
-    margin:325px ;
+.gsdiv {
+    margin-left: 100px;
+    margin-top: 1px;
+    font-size: 0px;
+}
+
+.grdiv {
+    
+    margin: 10px;
+    font-size:0px ;
+    margin-left: 50px;
+}
+
+h2 {
+    margin: 380px;
     margin-top: 1px;
     margin-bottom: 1px;
     color: rgba(236, 9, 153, 0.991);
 }
-h3{
+
+h3 {
     margin: 300px;
-    margin-top: 1px ;
+    margin-top: 1px;
     margin-bottom: 1px;
     color: rgba(236, 9, 153, 0.991);
 }
-.container{
+
+.container {
     size: 100%;
+}
+
+.footdiv {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.facediv {
+    width: 15px;
+    margin-left: 1150px;
+    margin-top: 10px;
+    border: none;
+   }
+
+.fa {
+    padding: 10px;
+    font-size: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*facebook icon*/
+.fa-facebook {
+    width: 10px;
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.pdiv {
+    display: inline-block;
+}
+
+myCarousel {
+    margin: 10px;
+
+}
+
+.footer {
+    border: solid;
+    border-color: rgba(236, 9, 153, 0.991);
+    position: sticky;
+}
+.e-mail{border: none;
+    width: 100px;
+
+}
+.phone{
+
+}
+.map{
+    display: flex;
 }

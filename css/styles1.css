@@ -1,0 +1,91 @@
+h1 {
+    color: rgb(236, 9, 153, 0.991);
+    font-style: italic;
+    font-family: ;
+    font-size: 70px;
+    margin-top: -21px;
+    margin-bottom: 1px;
+    margin-left: 300px;
+    margin-right: 1px;
+    padding: 10px;
+}
+
+pabout {
+    font-size: larger;
+    color: rgb(236, 9, 153, 0.991);
+}
+
+body {
+    background-image: url(/img/backgound2.jpg\);
+
+}
+
+ul {
+    margin-left: 170px;
+
+}
+
+li {
+    color: rgba(236, 9, 153, 0.991);
+    border: solid;
+    border-width: 3px;
+    border-radius: 20%;
+    display: inline-block;
+    width: 100px;
+    padding: 20px;
+    font-size: 24px;
+    margin: 7px;
+}
+
+.carousel {
+    margin: 300.5px;
+    width: 640px;
+    height: 360px;
+}
+
+div {
+    color: rgba(236, 9, 153, 0.991);
+    border: solid;
+    border-color: rgba(236, 9, 153, 0.991);
+    display: inline-block;
+}
+
+footer {
+    border: solid;
+    border-color: rgba(236, 9, 153, 0.991);
+    position: sticky;
+}
+
+.navagation {
+    border: none;
+    margin: 10px;
+    margin-right: 120px;
+}
+
+.mycarousel {
+    width: 20px;
+    ;
+    max-height: 200px margin: 200px;
+}
+
+.itemactive {
+    width: fit-content;
+}
+
+h2 {
+    margin: 325px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: rgba(236, 9, 153, 0.991);
+}
+
+h3 {
+    margin: 300px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: rgba(236, 9, 153, 0.991);
+}
+
+.container {
+    size: 100%;
+}

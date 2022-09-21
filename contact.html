@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +10,84 @@
     <title>Contact</title>
     <h1>Golden Loves Ranch</h1>
 </head>
+
 <body>
     <section>
-        <div>
+        <div class="navagation">
             <ul>
-                <li><a href="index.html" class="Home">Home</a></li>
-                <li> <a href="about.html" class="About">About Me</a></li>
-                <li> <a href="contact.html" classs="Contact">Contact</a></li>
-                <li><a href="breeding.html" class="Breeding">Breeding</li>
-                <li><a href="training.html"class="Training">Training</li>
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="about.html" class="about">About Me</a></li>
+                <li><a href="contact.html" class="contact">Contact</a></li>
+                <li><a href="breeding.html" class="breeding">Breeding</a></li>
+                <li><a href="training.html" class="training">Training</a></li>
             </ul>
-    <section>
-        
-        <div>
-            <p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12560.934878700833!2d-122.24231327421874!3d38.08822324991915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd30fb8f537ac26e1!2sGolden%20Loves%20Ranch!5e0!3m2!1sen!2sus!4v1662925771810!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                About the Breeder
-BREEDING SINCE 2020
-Breeds: German Shepherd Dog, Golden Retriever
-Kennel Name: Golden Loves Ranch
-Breeder Name: Juniper or Hector Colon
-Location: Vallejo, CA 94591
-Phone: 707-654-7060 - 707-655-1491
-            </p>
         </div>
     </section>
+    <section>
+        <div class="container border">
+
+            <div class="map">
+                <iframe class="inline"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12560.934878700833!2d-122.24231327421874!3d38.08822324991915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd30fb8f537ac26e1!2sGolden%20Loves%20Ranch!5e0!3m2!1sen!2sus!4v1662925771810!5m2!1sen!2sus"
+                    width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div>
+                    <h3>The Breeder</h3>
+                    <p>BREEDING SINCE 2020</p>
+                    <ul>
+                    <li> German Shepherd Dog, Golden Retriever</li>
+                    <li>Kennel Name: Golden Loves Ranch</li>
+                    <li>>Breeder Name: Juniper or Hector Colon</li>
+                    <li>Location: Vallejo, CA 94591</li>
+                    <li>Phone: 707-654-7060 - 707-655-1491</li>
+                </ul>
+                
+
+                </div>
+            </div>
+
+            <div class="centered">
+                <div class="form">
+                    <h1>Please Contact Us</h1>
+                    <form action="https://formspree.io/f/xjvzgnde" method="POST" class="forms">
+                        <label>Your email:<input type="email" name="email"></label><br><br>
+                        <label>Your message:<textarea name="message"></textarea></label><br>
+                        <!-- your other form fields go here -->
+                        <div class="selectors">
+                            <h3>Dog Breed</h3>
+
+                            <input type="checkbox" id="option1" name=option1 value="Shepard">
+                            <label for="option1">German Shepard</label><br>
+                            <input type="checkbox" id="option2" name=option2 value="Retevier">
+                            <label for="option1">Golden Labrador Retevier</label><br>
+                            <input type="checkbox" id="option3" name=option3 value="Traditional">
+                            <label for="option3">Breeding</label><br>
+                        </div>
+                        <!-- - radio buttion  -->
+                        <h3>What is your favorite dish</h3>
+                        <div class=""></div>
+                        <input type="radio" id="optiona" name=food value="Burrito">
+                        <label for="optiona"> Burrito</label><br>
+                        <input type="radio" id="optionb" name=food value="Chow Mein">
+                        <label for="optionb">Chow Mein</label><br>
+                        <input type="radio" id="optionc" name=food value="Pizza">
+                        <label for="optionc">Pizza</label><br>
+                        <input type="radio" id="optiond" name=food value="other">
+                        <label for="optiond">Other</label><br>
+                        <button type="submit" class="button">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footdiv">
+        <footer >
+            <section> 
+             <div class="facediv"><a href="https://www.facebook.com/profile.php?id=100081909475485&sk=about" class="fa fa-facebook"></a>
+             </div>
+         </section>
+         
+    </footer>
 </body>
+
 </html>

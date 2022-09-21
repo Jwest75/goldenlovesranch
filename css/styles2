@@ -1,0 +1,15 @@
+.imageone{
+    background-image: url(/img/glr11.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mycarousel{
+    width: 20px;;
+    max-height: 200px 
+  }
+  .itemactive{
+      width: fit-content;
+  }
+  
