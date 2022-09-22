@@ -7,74 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
     <h1>Golden Loves Ranch</h1>
 </head>
 
 <body>
     <section>
-        <div>
+        <div class="navagation">
             <ul>
-                <li><a href="index.html" class="Home">Home</a></li>
-                <li> <a href="about.html" class="About">About Me</a></li>
-                <li> <a href="contact.html" classs="Contact">Contact</a></li>
-                <li><a href="breeding.html" class="Breeding">Breeding<a></li>
-                <li><a href="training.html"class="Training">Training<a></li>
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="about.html" class="about">About Me</a></li>
+                <li><a href="contact.html" class="contact">Contact</a></li>
+                <li><a href="breeding.html" class="breeding">Breeding</a></li>
+                <li><a href="training.html" class="training">Training</a></li>
             </ul>
-            </div>
-            <div class="container">
-                <h2>Carousel Example</h2>  
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-      
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="/img/goldparents1.jpg" alt="Los Angeles" style="width:100%;">
-                    </div>
-      
-                    <div class="item">
-                      <img src="/img/goldmom.jpg" alt="Chicago" style="width:100%;">
-                    </div>
-      
-                    <div class="item">
-                      <img src="/img/goldparents2.jpg" alt="New york" style="width:100%;">
-                    </div>
-      
-                    <div class="item">
-                      <img src="/img/goldpuppy3.jpg" alt="New york" style="width:100%;">
-                    </div>
-                  </div>
-      
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-      
-                </div>
-            </section>
-        
-    
+        </div>
+    </section>
+    <section>
+        <div class="container border">
 
+            <div class="map">
+                <iframe class="inline"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12560.934878700833!2d-122.24231327421874!3d38.08822324991915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd30fb8f537ac26e1!2sGolden%20Loves%20Ranch!5e0!3m2!1sen!2sus!4v1662925771810!5m2!1sen!2sus"
+                    width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div>
+                    <h3>The Breeder</h3>
+                    <p>BREEDING SINCE 2020</p>
+                    <ul>
+                    <li> German Shepherd Dog, Golden Retriever</li>
+                    <li>Kennel Name: Golden Loves Ranch</li>
+                    <li>Breeder Name: Juniper or Hector Colon</li>
+                    <li>Location: Vallejo, CA 94591</li>
+                    <li>Phone: 707-654-7060 - 707-655-1491</li>
+                </ul>
+                
+
+                </div>
+            </div>
+
+            <div class="centered">
+                <div class="form">
+                    <h1 class="headerform">Please Contact Us</h1>
+                    <form action="https://formspree.io/f/xjvzgnde" method="POST" class="forms">
+                        <label>Your email:<input type="email" name="email"></label><br><br>
+                        <label>Your message:<textarea name="message"></textarea></label><br>
+                        <!-- your other form fields go here -->
+                        <div class="selectors">
+                            <h3>Dog Breed</h3>
+
+                            <input type="checkbox" id="option1" name=option1 value="Shepard">
+                            <label for="option1">German Shepard</label><br>
+                            <input type="checkbox" id="option2" name=option2 value="Retevier">
+                            <label for="option1">Golden Labrador Retevier</label><br>
+                            <input type="checkbox" id="option3" name=option3 value="Traditional">
+                            <label for="option3">Breeding</label><br>
+                        </div>
+                        <!-- - radio buttion  -->
+                        <h3>Click To Send</h3>
+                        <div class=""></div>
+                        
+                        <button type="submit" class="button">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footdiv">
+        <footer >
+            <section> 
+             <div class="facediv"><a href="https://www.facebook.com/profile.php?id=100081909475485&sk=about" class="fa fa-facebook"></a>
+             </div>
+         </section>
+         
+    </footer>
 </body>
-<footer>
-    <p><img src="/img/GoldenLovesRanch-logos_transparent.png" width=100px height=70px alt="
-        Golden Loves Ranch">
-    </p>
-</footer>
 
 </html>
-

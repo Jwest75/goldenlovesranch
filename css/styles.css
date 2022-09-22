@@ -1,5 +1,5 @@
 h1 {
-    
+
     color: rgba(236, 9, 153, 0.991);
     font-style: italic;
     font-family: ;
@@ -94,9 +94,9 @@ pabout {
 }
 
 .grdiv {
-    
+
     margin: 10px;
-    font-size:0px ;
+    font-size: 0px;
     margin-left: 50px;
 }
 
@@ -129,7 +129,7 @@ h3 {
     margin-left: 1150px;
     margin-top: 10px;
     border: none;
-   }
+}
 
 .fa {
     padding: 10px;
@@ -150,40 +150,64 @@ h3 {
     display: inline-block;
 }
 
-myCarousel {
-    margin: 10px;
-
-}
 
 .footer {
     border: solid;
     border-color: rgba(236, 9, 153, 0.991);
     position: sticky;
 }
-.e-mail{border: none;
+
+.e-mail {
+    border: none;
     width: 100px;
 
 }
-.phone{
 
-}
-.map{
+.phone {}
+
+.map {
     display: flex;
 }
-.selectors{
+
+.selectors {
     border: none;
 }
-.headerform{
+
+.headerform {
     margin-right: 250px;
     border: none;
 }
-.form{
+
+.form {
     border: none;
     padding-left: 50px;
     padding-bottom: 2px;
-}.centered{
+}
+
+.centered {
     border: none;
 }
-.logo{
-margin-left: 55px;
+
+.logo {
+    margin-left: 55px;
+}
+
+.h3breeder {
+    margin-left: 10px;
+    border: none;
+}
+
+p {
+    margin: 10px;
+}
+
+.interest{
+    margin-left: 30px;
+}
+
+.button {
+    margin-left: 550px;
+}
+.clicktext{
+    margin-left: 520px;
 }
