@@ -170,3 +170,20 @@ myCarousel {
 .map{
     display: flex;
 }
+.selectors{
+    border: none;
+}
+.headerform{
+    margin-right: 250px;
+    border: none;
+}
+.form{
+    border: none;
+    padding-left: 50px;
+    padding-bottom: 2px;
+}.centered{
+    border: none;
+}
+.logo{
+margin-left: 55px;
+}
