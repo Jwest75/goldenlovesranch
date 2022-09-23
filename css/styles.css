@@ -2,7 +2,7 @@ h1 {
 
     color: rgba(236, 9, 153, 0.991);
     font-style: italic;
-    font-family: ;
+
     font-size: 70px;
     margin-top: -21px;
     margin-bottom: 1px;
@@ -201,13 +201,14 @@ p {
     margin: 10px;
 }
 
-.interest{
+.interest {
     margin-left: 30px;
 }
 
 .button {
     margin-left: 550px;
 }
-.clicktext{
+
+.clicktext {
     margin-left: 520px;
 }
